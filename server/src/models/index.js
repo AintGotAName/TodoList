@@ -1,5 +1,4 @@
-import { Schema, model } from "mongoose";
-import { ObjectId } from "mongoose.Types";
+import { Schema, model, Types } from "mongoose";
 
 const UserSchema = new Schema({
     username: String,
@@ -7,7 +6,7 @@ const UserSchema = new Schema({
     salt: String,
     todoList: [
         {
-            _id: ObjectId,
+            _id: Types.ObjectId,
             createdAt: Date,
             finishedAt: Date,
             content: String,
