@@ -1,3 +1,3 @@
-import UserRouter from "./user.router";
+import UserRouter from "./user";
 
 export { UserRouter };
