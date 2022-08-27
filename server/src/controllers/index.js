@@ -1,3 +1,3 @@
-import { get } from "./user.js";
+import { get } from "./user.controller";
 
 export { get };
