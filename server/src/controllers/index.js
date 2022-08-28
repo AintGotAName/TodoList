@@ -1,3 +1,3 @@
-import { get } from "./user";
+import { get, makeTask } from "./user";
 
-export { get };
+export { get, makeTask };
